@@ -105,8 +105,6 @@ get_scores_for_LC_MS <- function(filename, type = c('data.frame','csv','txt'), n
     prob <- Z+prob
   }
   prob <- prob/(Size-iterations)
-
-
   ## add score column to the original file
   message('Start writing scores......')
   index_empty <- list_from_get_cleaned$index_na
@@ -125,8 +123,5 @@ get_scores_for_LC_MS <- function(filename, type = c('data.frame','csv','txt'), n
   }
   df$score[is.na(df$score)] <- 0
   message('Completed!')
-
-
-  write.csv(df,file = 'scores.csv')
   return(df)
 }
