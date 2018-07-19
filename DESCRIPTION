@@ -6,7 +6,6 @@ Author: Zhenzhi Li <zzrickli@gmail.com>
 Maintainer: Zhenzhi Li <zzrickli@gmail.com>
 URL: https://github.com/ressomlab/MetID
 Description: This package uses an innovative network-based approach that will enhance our ability to determine the identities of significant ions detected by LC-MS.
-    Use four spaces when indenting paragraphs within the Description.
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
