@@ -114,21 +114,6 @@ get_inchikey<- function(ids){
     }, FUN.VALUE = character(1))
   return(response)}
 
-
-
-#vapply(id, function(i))
-#need to fix this tomorrow
-
-
-
-
-
-
-
-
-
-
-
 combine_inchikey <- function(compound){
   # This function combines identifications with same InchiKey.
   group <- compound$inchikey[!duplicated(compound$inchikey)]
